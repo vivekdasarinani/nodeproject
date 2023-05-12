@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+{{>header}}
+
+</head>
+<body>
+{{>navbar}}           
+<!---main section end   -->
+        
+
+
+
+        
+<!-----main register form start------>
+
+<center>
+    <!-- Register Form -->
+		
+    
+    <div class="form-banner"><img src="assets/images/banner/Image_20230504_181414_478.png" alt=""> </div><!----banner-->
+    <main>
+       
+        <div class="only-form-pages">
+        
+          <div class="container">
+          
+                 <div class="row">
+               
+              <div class="col-md-12">
+                  
+                  <div class="form-wrapper"> 
+                    <!-- Form-wrapper only for positioning --->
+                     
+                    <form action="/register" method="post" class="fcorn-register container" enctype="multipart/form-data"  >
+                        <div class="backgroun-set">
+                          <h2 class="franchise">Franchise Appilcation form</h2>
+                        
+
+
+
+                               <!-- <label class="header">Profile Photo:</label> -->
+                        
+                            <div class="box-header"></div>
+                            <div class="form-controls">
+                            <label class="header">Profile Photo:</label>
+                            
+                            <input id="image" type="file" name="profile_photo" placeholder="Photo"   capture>
+                           </div>
+                
+                        <div class="row">
+                            <p class="col-md-2 specialty-wrap">
+                                <select name="title">
+                                        <option value="title" name="Title" selected disabled>Title  (DR)  </option>
+                                        <option value="DR">DR</option>
+                                        <option value="MR">MR</option>
+                                        <option value="MISS">MISS</option>
+                                        <option value="MS">MS</option>
+                             </select>
+                          </p> 
+                          <p class="col-md-5"><input type="text" placeholder="First Name" name="firstname" ></p>
+                            <p class="col-md-5"><input type="text" placeholder="Last Name" name="lastname" ></p>
+                     </div>
+                     <p class="col-md-6">
+                        <input type="email" placeholder="Email Address" name="email" >
+                           <span class="extern-type">We'll keep this private.</span>
+                      </p>
+
+                        <div class="row">
+                            <span class="extern-type-1">education qualification beginning with most recent</span>  
+                       
+                                <!-- Add more country name -->
+                                 <p class="col-md-4 specialty-wrap">
+                                    <select name="Qulifaication">
+                                       <option value="Qualification" name="Qualification" selected disabled>Qualification</option>
+                                        <!-- <option value="">Select</option> -->
+                                        <option value="Anaesthesiaogist">Anaesthesiaogist</option>
+                                        <option value="Anatomist">Anatomist</option>
+                                        <option value="Cardiologist">Cardiologist</option>
+                                        <option value="Care team doctor">Care team doctor</option>
+                                        <option value="Chief Medical Officer">Chief Medical Officer</option>
+                                        <option value="Clinical Assistant">Clinical Assistant</option>
+                                        <option value="Clinical Assiciate">Clinical Assiciate</option>
+                                        <option value="Community Medicine">Community Medicine</option>
+                                        <option value="Consultant">Consultant</option>
+                                        <option value="Consultant Physician">Consultant Physician</option>
+                                        <option value="">Critical Care Physician</option>
+                                        <option value="Critical Care Physician">Dentist</option>
+                                        <option value="Dermatologist">Dermatologist</option>
+                                        <option value="Diabetologist">Diabetologist</option>
+                                        <option value="Emergency Medicine">Emergency Medicine</option>
+                                        <option value="Endocrinologist">Endocrinologist</option>
+                                        <option value="ENT Specialist">ENT Specialist</option>
+                                        <option value="Eye Specialist">Eye Specialist</option>
+                                        <option value="Family Medicine">Family Medicine</option>
+                                        <option value="Family Physician">Family Physician</option>
+                                        <option value="Gastroenterologist">Gastroenterologist</option>
+                                        <option value="General physician">General physician</option>
+                                        <option value="General Practitioners">General Practitioners</option>
+                                        <option value="General Surgeon">General Surgeon</option>
+                                        <option value="Geriatric Medicine">Geriatric Medicine</option>
+                                        <option value="Gynnaecologist">Gynnaecologist</option>
+                                        <option value="Haemotologist">Haemotologist</option>
+                                        <option value="Homeopaths">Homeopaths</option>
+                                        <option value="Intensivis">Intensivist</option>
+                                        <option value="Internal Medicine">Internal Medicine</option>
+                                        <option value="Invasive Cardiologist">Invasive Cardiologist</option>
+                                        <option value="junior Resident">junior Resident</option>
+                                        <option value="Laparoscopic Surgeon">Laparoscopic Surgeon</option>
+                                        <option value="MBBS Doctor">MBBS Doctor</option>
+                                        <option value="MD Medicine">MD Medicine</option>
+                                        <option value="Medical Officer">Medical Officer</option>
+        
+                                </select>
+                            </p>
+                       
+                                <!-- Add more country name -->
+                                <p class="col-md-4"><input type="number" placeholder="1890 to 2023" min="1890" max="2040" name="year_of_passing"  ></p>
+
+                                
+                            
+                        
+                                <!-- Add more country name -->
+                                <p class="col-md-4 specialty-wrap">
+                                     <select name="institution">
+                                        <option value="institution" name="institution" selected disabled>Name institution</option>
+                                        <option value="1">India</option>
+                                        <option value="2">Australia</option>
+                                        <option value="3">Canada</option>
+                                        <option value="4">Indonesia</option>
+                                        <option value="5">Italy</option>
+                                        <option value="6">Nepal</option>
+                                        <option value="7">Russia</option>
+                                        <option value="8">South Africa</option>
+                                        <option value="9">South Korea</option>
+                                        <option value="10">Vietnam</option>
+                                        <option value="11">Spain</option>
+                                        <option value="12">	Sri Lanka</option>
+                                        <option value="13">Germany</option>
+                                </select>
+                            </p>
+                        </div>
+
+                        <!-----some information-->
+                        <span class="extern-type-1">Previous work Experience</span>  
+                        <div class="row">
+                           
+                       <br><br>
+                                <!-- Add more country name -->
+                                <p class="col-md-3"><input type="text" placeholder="Period" name="period" >Period </p>
+                                <!-- Add more country name -->
+                                <p class="col-md-3"><input type="text" placeholder="Organization" name="organization" >Organization name</p>
+                                <p class="col-md-3"><input type="text" placeholder="Designation" name="designations" >Designation</p>
+                                <p class="col-md-3"><input type="text" placeholder="Responsiveibilities" name="responsiveibiliies" >Responsiveibilities</p>
+                        </div>
+
+   <!-----some information- nd---->
+
+
+                            
+                            
+                        <div class="row">
+                            <p class="col-md-4"><input type="date" placeholder="Date (dd)" name="DOB" >Date Of Birth</p>
+                                <!-- Add more Gender -->
+                                 <p class="col-md-4 specialty-wrap">
+                                        <select name="gender">
+                                                 <option value="Gender" name="gender" selected disabled>Gender</option>
+                                                 <option value="male">male</option>
+                                                <option value="female">female</option>
+                                       </select>
+                                       Gender
+                                  </p>
+                                <!-- Add more Married -->
+                               <p class="col-md-4 specialty-wrap">
+                                     <select name="married">
+                                         <option value="Married" name="married" selected disabled>Married</option>
+                                         <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
+                                    Married status 
+                              </p>
+                        </div>
+                      
+                        <div class="row">
+                             <p class="col-md-6 specialty-wrap">
+                                        <select name="city">
+                                            <option value="City"  name= "city"selected disabled>City</option>
+                                            <option value="Hyd">Hyderabad</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="bng">Bangalore</option>
+                                            <option value="kot">Kolkata</option> 
+                                            <option value="chennai">Chennai</option>
+                                            <option value="Ahemdabad">Ahemdabad</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Chicago">Chicago</option>
+                                            <option value="Berlin">Berlin</option>
+                               </select>
+                            </p>
+                            <p class="col-md-6 specialty-wrap">
+                                <select name="country">
+                                    <option value="Country" name="country" selected disabled>Country</option>
+                                    <option value="India">India</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="2">Russia</option>
+                                    <option value="Russia">South Africa</option>
+                                    <option value="South">South Korea</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Sri">Sri Lanka</option>
+                                    <option value="Germany">Germany</option>
+                                </select>
+                            </p>
+                             <p class="col-md-6 specialty-wrap">
+                                <select name="specialty">
+                                    <option value="Specialty" name="specialty" selected disabled>Specialty</option>
+                                    <option value="fm">Family Medicine</option>
+                                    <option value="csm">Children's specialty medicinal</option>
+                                    <option value="of">Orthopedic facilities</option>
+                                    <option value="cdh">Chronic disease hospitals</option>
+                                    <option value="rf">Rehabilitation facilities</option>
+                                    <option value="dxr">Diagnostic x-rays</option>
+                                </select>
+                            </p>
+                            <p class="col-md-6 language-wrap"> 
+                                <select name="language">
+                                    <option value="Language" name="language" selected disabled>Language</option>
+                                    <option value="eng">English</option>
+                                </select>
+                                  <span class="extern-type">Proficient languages.</span>
+                            </p>
+
+
+                            <p class="col-xs-6"> 
+                                <select name="already_a_site">
+                                    <option value="Do you already posses a site" name="already_a_site" selected disabled> Do you already posses a site?  </option>
+                                    <option value="yes">Yes</option>
+                                   <option value="no">No</option>
+                               </select>
+                         </p>  
+                              
+                       
+
+                                       
+                        
+                        <div class="row">
+                            <span class="extern-type-1">PROPOSED CENTER</span>  
+                       <br><br>
+                                <!-- Add more country name -->
+                                <p class="col-md-12">
+                                    <select name="setup_center">
+                                    <option value="set up the center" name="setup_center" selected disabled>How to you propose to set up the center ?  </option>
+                                    <option value="proprietorship">Proprietorship</option>
+                                   <option value="partnership">partnership</option>
+                                   <option value="private ltd">private ltd</option>
+                                   <option value="trust">trust</option>
+                                   <option value="society">society</option>
+                                    <option value="public ltd">public ltd</option>
+                                   
+                                 </select> 
+                            </p>
+                                 
+                        </div>
+
+   <!-----some information- nd---->
+
+                           <p class="col-xs-6"><input type="number" placeholder="Enter mobile number" name="mobile_num" ></p>
+
+                  <p class="col-md-6"><input type="text" placeholder="To be filled service" name="filled_service" ></p>
+                  
+                  <p class="col-md-3"><input type="text" placeholder="employ-ID" name="employ_id" >current employer id</p>
+                  
+                  <p class="col-md-3"><input type="text" placeholder="Designation" name="designation" >Type of Designation</p>
+
+                  <p class="col-md-3">
+                    <select name="professional">
+                    <option value="professional" name="professional"   selected disabled>professional</option>
+                    <option value="yes">Yes</option>
+                   <option value="no">No</option>
+               </select>current professional</p>
+
+                  <p class="col-md-3">
+                    <select name="venture">
+                    <option value="venture" name="venture" selected disabled>venture  </option>
+                    <option value="Immediately">Immediately</option>
+                    <option value="Within next">Within next 3 months</option>
+                    <option value="next3-6">Next 3 to 6 months</option>
+                  
+               </select>propose new venture</p>
+                  
+                  
+               <p class="col-md-3"><select name="possessite">
+                <option value="posses site" name="possessite" selected disabled>posses site</option>
+                <option value="yes">Yes</option>
+               <option value="no">No</option>
+           </select>Alerady posses a site</p>
+
+           <p class="col-md-3"><select  name="site_in_mind">
+            <option value="have site in mind" name="site_in_mind" selected disabled>have site in mind</option>
+            <option value="yes">Yes</option>
+           <option value="no">No</option>
+       </select>If no,do you have site in mind</p>
+
+       <p class="col-md-3"><select name="site_take_rent">
+        <option value="site take on rent" name="site_take_rent" selected disabled>site take on rent  </option>
+        <option value="yes">Yes</option>
+       <option value="no">No</option>
+   </select>In case do you have plan to take rent</p>
+
+   <p class="col-md-3"><select name="invest">
+    <option value="Will invest" name="invest" selected disabled>Will invest  </option>
+    <option value="10-15lac">10-15 Lacs</option>
+    <option value="15-30lac">15-30 Lacs</option>
+    <option value="30lac">More than 30 Lacs</option>
+    
+
+</select>willing to invest</p>
+
+
+
+<p class="col-xs-6"><input type="text" placeholder="located in state" name="located_state" >located in state</p>
+<p class="col-xs-6"><input type="text" placeholder="city town propose new venture" name="city_venture" >city town propose new ventur</p>
+<p class="col-xs-6"><input type="text" placeholder="what type name bussiness/firm/company ?" name="bussiness_company" >what type name bussiness/firm/company ?</p>
+<p class="col-xs-6"><input type="text" placeholder="if you give details" name="give_details" >if you give details ?</p>
+<p class="col-xs-6"><input type="text" placeholder="previous work experience" name="work_experience" >if you give details ?</p>
+<p class="col-xs-6"><input type="text" placeholder="if yes how many months ?" name="many_moths" >if yes how many months ?</p>             
+<p class="col-xs-6"><input type="text" placeholder="to make business a success ?" name="business_success" >to make business a success ?</p>
+<p class="col-xs-6"><input type="text" placeholder="state reasons why Doc24x7 should business" name="should_resons" >state reasons why Doc24x7 should business</p>
+
+
+
+<p class="col-xs-6"><input type="datetime-local" placeholder="Date :" name="datetime" ></p>
+<p class="col-xs-6"><input type="text" placeholder="signature" name="signature" ></p>
+<p class="col-md-6">
+<textarea cols="50" rows="8"placeholder="Enter you address" name="address" value="address">Address</textarea>  
+</p>    
+                </div>
+                    <p class="register-toggle">
+                            <label for="register-agree" class="toggle-label" data-on="YES" data-off="NO" name="togglelabel">
+                                <input type="checkbox" id="register-agree" class="toggle-input"  >
+                                <span class="toggle-handle"></span>
+                            </label>
+                            <span class="info">Do you agree to the <a href="#">terms and conditions?</a></span>
+                        </p>
+                        <p class="register-submit"><input type="submit" value="Register Now"></p>
+                    </div><!--back--->
+                    </form>
+    
+                    <!-- </div>form water -->
+                    
+                </div>
+              </div><!--col md 6-->
+            </div>
+            </div><!---conte-->
+         
+        </div>
+   
+      </main>
+</center>
+
+
+       
+       
+{{>footer}}
+</body><!-- End of .page_wrapper -->
+</html>
