@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+{{>header}}
+
+</head>
+<body>
+{{>navbar}}           
+<!---main section end   -->
+        
+
+
+<div class="contact_info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="contact_info_container d-flex flex-lg-row flex-column justify-content-between align-items-between">
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Phone</div>
+                            <div class="contact_info_text">+91 9876 543 2198</div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Email</div>
+                            <div class="contact_info_text">contact@bbbootstrap.com</div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Item -->
+                    <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+                        <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt=""></div>
+                        <div class="contact_info_content">
+                            <div class="contact_info_title">Address</div>
+                            <div class="contact_info_text">298,Menlo Park,CA,USA</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Form -->
+
+<div class="contact_form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="only-form-box">		
+                <div class="welcome-text text-center mb-5">
+                  <!-- <h5 class="mb-0">Create an account!</h5> -->
+                   <h5 class="mb-0">Our Franchise </h5> 
+                  <span>Already have an account? <a href="http://mbbshr.com/login.html">Log In!</a></span>
+                </div>
+                    <form action="http://mbbshr.com/job-dashboard.html" method="post">
+                        <div class="com_class_form">
+                            <div class="form-group user_type_cont">
+                  <label class="user_type" for="usertype-1">
+                    <input type="radio"  name="usertype" id="usertype-1" value="Gated community" >
+                    <span><i class="far fa-house"></i> Gated community</span> 
+                  </label>
+                  <label class="user_type" for="usertype-2">
+                    <input type="radio" checked="" name="usertype" id="usertype-2" value="Doctors" >
+                    <span><i class="fas fa-user-md"></i> Doctors</span>  
+                  </label>
+                  <label class="user_type" for="usertype-2">
+                      <input type="radio" checked="" name="usertype" id="usertype-2" value="patient" >
+                      <span><i class="fas fa-users-medical"></i> Patient</span>   
+                </div>
+                <div class="form-group">
+                                <input class="form-control" type="email" size="40" placeholder="Email address* ">
+                            </div>
+                <div class="form-group">
+                  <input class="form-control" type="text"  size="40" placeholder="User name ">
+                </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" placeholder=" Password * ">
+                            </div>
+                <div class="form-group">
+                  <input class="form-control" type="password" placeholder="Re-enter Password * ">
+                </div>
+    
+                            
+                            <div class="form-group">
+                                <input class="btn btn-primary" type="submit"  value="Register">
+                            </div>
+                <div class="form-group form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                  </label>
+                </div>
+                
+                        </div>
+                    </form>
+            <div class="social_login">
+                  <p class="or_span"><span>or</span></p>
+                  <button class="btn btn-facebook"><i class="fab fa-facebook-f"></i> Log In via Facebook</button>
+                  <button class="btn btn-google"><i class="fab fa-google-plus-g"></i> Register via Google+</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-6  ">
+                <div class="contact_form_container">
+                    <div class="contact_form_title">Get in Touch</div>
+
+                    <form action="#" id="contact_form">
+                        <div class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
+                            <input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Your name" required="required" data-error="Name is required.">
+                            <input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="Your email" required="required" data-error="Email is required.">
+                            <input type="text" id="contact_form_phone" class="contact_form_phone input_field" placeholder="Your phone numb">
+                        </div>
+                        <div class="contact_form_text">
+                            <textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
+                        </div>
+                        <div class="contact_form_button">
+                            <button type="submit" class="button contact_submit_button">Send Message</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel"></div>
+</div>
+        <br><br><br><br>
+	  {{!-- <!-- agent-section  -->
+        <section class="agent-section">
+            <div class="auto-container">
+                <div class="inner-container bg-color-2">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-12 col-sm-12 left-column">
+                            <div class="content_block_3">
+                                <div class="content-box">
+                                    <h3>Emergency call</h3>
+                                    <div class="support-box">
+                                        <div class="icon-box"><i class="fas fa-phone"></i></div>
+                                        <span>Telephone</span>
+                                        <h3><a href="tel:+91 9876543210">+91 9876543210</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 right-column">
+                            <div class="content_block_4">
+                                <div class="content-box">
+                                    <h3>Sign up for Email</h3>
+                                    <form action="/" method="post" class="subscribe-form">
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Your Email" required="">
+                                            <button type="submit" class="theme-btn-one">Submit now<i class="icon-Arrow-Right"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+         <!-- agent-section --> 
+
+
+       
+       
+{{>footer}}
+</body> 
+</html>
